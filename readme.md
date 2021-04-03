@@ -11,3 +11,7 @@ docker run -i -v $(pwd):/ci/ loadimpact/k6:latest run --out json=/ci/result.json
 ```
 
 `time="2021-04-03T04:09:20Z" level=error msg="open /ci/result.json: permission denied"`
+
+## references
+
+https://k6.io/blog/integrating-load-testing-with-circleci
